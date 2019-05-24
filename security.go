@@ -1,4 +1,4 @@
-package main
+package security
 
 import (
 	"errors"
@@ -78,8 +78,4 @@ func Validate(tok string) error {
 		// fmt.Println("Valid")
 		return nil
 	}
-}
-
-func main() {
-	fmt.Println("Hello")
 }

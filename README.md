@@ -1,4 +1,4 @@
-# Zest Go security
+# Zest Go Security
 
 ## Install 
 

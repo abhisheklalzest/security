@@ -6,9 +6,17 @@
 
 A go package to check the validity of JWT token.
 
-### Example
+### Usage
 
 ```
+
+import (
+	....
+
+	"github.com/abhisheklalzest/security"
+	....
+)
+
 serr := security.Validate("<Token>")
 if serr != nil {
 		fmt.Println("Invalid")
